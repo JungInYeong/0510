@@ -17,10 +17,10 @@ public:
 	}
 	void area(){ cout << "³ÐÀÌ´Â : " << width * height << endl; }
 
-	double getWidth() { return this->width; }
+	double getWidth() { return width; }
 	void setWidth(double width) { this->width = width; }
 	
-	double getHeight() { return this->height; }
+	double getHeight() { return height; }
 	void setHeight(double height) { this->height = height; }
 
 
