@@ -4,7 +4,8 @@
 using namespace std;
 
 class Rectangle
-{private:
+{
+private:
 	
 	double width, height;
 
