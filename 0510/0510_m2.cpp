@@ -15,10 +15,7 @@ public:
 		width = w;
 		height = h;
 	}
-	void area()
-	{
-		cout << "³ÐÀÌ´Â : " << width * height << endl;
-	}
+	void area(){ cout << "³ÐÀÌ´Â : " << width * height << endl; }
 
 	double getWidth() { return this->width; }
 	void setWidth(double width) { this->width = width; }
