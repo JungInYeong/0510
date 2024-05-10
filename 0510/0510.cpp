@@ -15,7 +15,7 @@ public:
 		width = w;
 		height = h;
 	}
-	void area(double w, double h)
+	void area()
 	{
 		cout << "넓이는 : " << width * height << endl;
 	}
@@ -30,7 +30,7 @@ int main()
 	cin >> wid >> hei;
 	Rectangle R(wid, hei);
 
-	R.area(wid, hei);
+	R.area();
 
 
 
