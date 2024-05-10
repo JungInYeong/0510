@@ -21,10 +21,10 @@ public:
 	}
 
 	// 복사생성자
-	Rectangle(Rectangle& rect2)
+	Rectangle(Rectangle& other)
 	{
-		width = rect2.width;
-		height = rect2.height;
+		width = other.width;
+		height = other.height;
 	}
 
 
