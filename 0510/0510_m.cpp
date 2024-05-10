@@ -49,10 +49,6 @@ int main()
 	cout << "기본생성자 "; rect3.area();
 
 
-	
-
-
-
 
 	return 0;
 }
