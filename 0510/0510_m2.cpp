@@ -1,4 +1,4 @@
-// ½Ç½À2 getter setter »ç¿ëÇØº¸±â
+ï»¿// ì‹¤ìŠµ2 getter setter ì‚¬ìš©í•´ë³´ê¸°
 
 #include <iostream>
 using namespace std;
@@ -12,15 +12,15 @@ private:
 public:
 	Rectangle(double w, double h)
 	{
-		width = w;
-		height = h;
+		this->width = w;
+		this->height = h;
 	}
-	void area(){ cout << "³ÐÀÌ´Â : " << width * height << endl; }
+	void area(){ cout << "ë„“ì´ëŠ” : " << width * height << endl; }
 
-	double getWidth() { return width; }
+	double getWidth() { return this->width; }
 	void setWidth(double width) { this->width = width; }
 	
-	double getHeight() { return height; }
+	double getHeight() { return this->height; }
 	void setHeight(double height) { this->height = height; }
 
 
@@ -29,19 +29,19 @@ public:
 
 int main()
 {
-	double wid, hei;
+	double width, height;
 
 	Rectangle rect(1, 2);
 	rect.area();
 
-	cout << "»ç°¢ÇüÀÇ °¡·Î¿Í ¼¼·Î ±æÀÌ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. (¶ç¾î¾²±â·Î ±¸ºÐ) : ";
-	cin >> wid >> hei;
+	cout << "ì‚¬ê°í˜•ì˜ ê°€ë¡œì™€ ì„¸ë¡œ ê¸¸ì´ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”. (ë„ì–´ì“°ê¸°ë¡œ êµ¬ë¶„) : ";
+	cin >> width >> height;
 	
-	rect.setWidth(wid);
-	rect.setHeight(hei);
+	rect.setWidth(width);
+	rect.setHeight(height);
 
 	rect.area();
-	cout << "°¡·Î ¼¼·Î ±æÀÌ´Â : " << rect.getWidth() <<  " " << rect.getHeight() << endl;
+	cout << "ê°€ë¡œ ì„¸ë¡œ ê¸¸ì´ëŠ” : " << rect.getWidth() <<  " " << rect.getHeight() << endl;
 
 
 
