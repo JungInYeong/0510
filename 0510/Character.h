@@ -13,8 +13,6 @@ private:
 public:
 	Character(string name, int level, int item_num);
 
-	void createCharacter();
-
 	void printCharacter();
 
 	void ChangeName();
