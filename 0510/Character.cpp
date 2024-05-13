@@ -8,12 +8,6 @@ Character::Character(string name, int level, int item_num)
 	m_item_num = item_num;
 }
 
-void Character::createCharacter()
-{
-	cout << "캐릭터 이름을 입력하세요 : ";
-	cin >> m_name;
-}
-
 	//캐릭터 정보 출력
 void Character::printCharacter()
 {
